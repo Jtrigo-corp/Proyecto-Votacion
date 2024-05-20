@@ -9,7 +9,11 @@
 
 <body>
     <?php include 'obtener_datos_select.php'; ?>
-
+    <?php if (isset($_GET['success'])): ?>
+        <script>
+            alert("<?= htmlspecialchars($_GET['nombre_apellido']) ?> (RUT: <?= htmlspecialchars($_GET['rut']) ?>), tu voto por <?= htmlspecialchars($_GET['candidato']) ?> ha sido registrado con éxito.");
+        </script>
+    <?php endif; ?>
     <form method="post" action="procesar_formulario.php" name="form" id="form" onsubmit="return validarFormulario()"
         novalidate>
         <fieldset>
