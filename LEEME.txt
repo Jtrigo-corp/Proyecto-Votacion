@@ -15,7 +15,8 @@ Ingresa a la carpeta del proyecto utilizando el siguiente comando:
 -	cd Proyecto-Votacion
 
 Importar la Base de Datos:
-En repositorio encontraras una carpeta llamada SQL que contiene el archivo votaciones_bd.sql, lo descargas y luego debes importar este archivo desde el phpMyAdmin de xampp
+En repositorio encontraras una carpeta llamada SQL que contiene el archivo votaciones_bd.sql, 
+lo descargas y luego debes importar este archivo desde el phpMyAdmin de xampp
 
 Como paso extra, debes ir a conexionDB.php, y acceder a la base de datos con tus credenciales.
 Tambien ejecutar XAMPP e iniciar apache y mysql.
