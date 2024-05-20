@@ -13,11 +13,9 @@ Abre tu terminal y ejecuta el siguiente comando para clonar este repositorio:
 
 Ingresa a la carpeta del proyecto utilizando el siguiente comando:
 -	cd Proyecto-Votacion
-(O navega utilizando cd para ir a la carpeta del proyecto)
 
 Importar la Base de Datos:
-En repositorio encontraras una carpeta llamada SQL que contiene el archivo votaciones_bd.sql
-Debes importar este archivo desde phpMyAdmin de xampp
+En repositorio encontraras una carpeta llamada SQL que contiene el archivo votaciones_bd.sql, lo descargas y luego debes importar este archivo desde el phpMyAdmin de xampp
 
 Como paso extra, debes ir a conexionDB.php, y acceder a la base de datos con tus credenciales.
 Tambien ejecutar XAMPP e iniciar apache y mysql.
