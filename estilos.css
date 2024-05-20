@@ -1,0 +1,41 @@
+fieldset {
+    border-width: 2px;
+    width: 55%;
+    margin: auto;
+}
+
+form {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#checkbox-group {
+    display: flex;
+    gap: 2px; 
+}
+
+.inputs {
+    width: 60%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 70%; 
+}
+
+td {
+    padding: 2px; 
+}
+
+#btn_votar{
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.error-message {
+    color: red;
+}
