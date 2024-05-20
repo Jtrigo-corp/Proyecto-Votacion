@@ -1,0 +1,31 @@
+-VERSION DE PHP 8.2.12 -VERSION DE MariaDB 10.4.32 -VERSION DE phpMyAdmin 5.2.1
+
+Requisitos Previos
+Asegúrate de tener instalado PHP en tu sistema. Puedes descargarlo desde php.net.
+Debes tener un servidor web local instalado, recomendacion por uso propio para el desarrollo del proyecto XAMPP.
+Se recomienda tener instalado MySQL o MariaDB para la base de datos.
+Tambien descargar git bash como controlador de versiones para la clonacion del repositorio.
+
+Pasos a seguir para clonar el repositorio
+
+Abre tu terminal y ejecuta el siguiente comando para clonar este repositorio:
+-	git clone https://github.com/Jtrigo-corp/Proyecto-Votacion.git
+
+Ingresa a la carpeta del proyecto utilizando el siguiente comando:
+-	cd Proyecto-Votacion
+(O navega utilizando cd para ir a la carpeta del proyecto)
+
+Importar la Base de Datos:
+En repositorio encontraras una carpeta llamada SQL que contiene el archivo votaciones_bd.sql
+Debes importar este archivo desde phpMyAdmin de xampp
+
+Como paso extra, debes ir a conexionDB.php, y acceder a la base de datos con tus credenciales.
+Tambien ejecutar XAMPP e iniciar apache y mysql.
+
+Una vez tengas todos los pasos listos, en git bash escribe el siguiente comando una vez estes
+en la carpeta del proyecto
+El comando es code . , para ejecutar el proyecto en visual studio code.
+
+Luego vas a tu navegador y en la url pon localhost, y seleccionas la carpeta que aparece allí para visualizar 
+el formulario de votación.
+
