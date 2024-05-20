@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
-    
+
 
     // Obtener los nombres de región, comuna y candidato basados en los IDs
     $region = '';
@@ -102,11 +102,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conexion->prepare($sql);
     $stmt->bind_param("ssssssss", $nombre_apellido, $alias, $rut, $email, $region, $comuna, $candidato, $medio_social);
-
-    // Ejecutar la consulta
+    
+    
     if ($stmt->execute() === TRUE) {
         // Redireccionar si los datos se guardan correctamente
-        header("Location: index.php?success=Votación realizada con éxito.");
+        header("Location: index.php?success=Votación realizada con éxito.&nombre_apellido=" . urlencode($nombre_apellido) . "&rut=" . urlencode($rut) . "&candidato=" . urlencode($candidato));
         exit();
     } else {
         header("Location: index.php?error=Error al guardar los datos.");
